@@ -16,11 +16,11 @@
     - stock_dividend(dataframe) #是否有股利 [0,1] 0=沒有, 1=有
     - fill_day(dataframe)      #填息時間
       
-4.選擇分類器
+4. 選擇分類器
     - XGBoost model
     - AdaBoost model
 
-6. 預測  
+5. 預測  
   ```shell
 from xgboost import XGBClassifier
 xg1 = XGBClassifier()
@@ -31,7 +31,7 @@ xg1_val=xg1.predict(X_valid)
 accuracy_score(Y_valid,xg1_val)
 ```
 
-7. 分析結果
+6. 分析結果
   ```shell
 # Confusion Matrix
 mat = confusion_matrix(Y_valid, xg1_val)
