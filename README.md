@@ -15,7 +15,6 @@
     - cac_dividend_rate(dataframe) #計算股息比率
     - stock_dividend(dataframe) #是否有股利 [0,1] 0=沒有, 1=有
     - fill_day(dataframe)      #填息時間
-
 4.選擇分類器
     - XGBoost model
     - AdaBoost model
