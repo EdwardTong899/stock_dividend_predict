@@ -1,4 +1,4 @@
-# stock_dividend_predict 股票填息預測
+# stock dividend predict 股票填息預測
 
  
    - 使用2種分類器 (ADAboost, XGBoost) 預測股票在30天內是否可以完成填息  
