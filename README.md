@@ -17,7 +17,7 @@
     - fill_day(dataframe)      #填息時間
 
 4.選擇分類器
-    - XGBoost model  
+    - XGBoost model
     - AdaBoost model
 
 6. 預測  
